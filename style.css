@@ -1,0 +1,180 @@
+body {
+    font-family: "Manrope", sans-serif !important;
+    overflow-x: hidden;
+}
+.text-red {
+    color: #FF4240;
+}
+.brand {
+    font-size: 36px;
+    font-weight: 700;
+}
+.nav-item {
+    font-size: 18px;
+    font-weight: 700;
+}
+.button {
+    background-color: #FF4240;
+    width: 148px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+}
+.card-button {
+    background-color: #FF4240;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+}
+.send-button {
+    background-color: #FF4240;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sm-box {
+    background-color: #f8f8f8;
+    height: 160px;
+}
+.h-570 {
+    height: 570px;
+}
+
+.slide-caption {
+    background-color: #131318;
+    color: white;
+    width: 550px;
+    height: 160px;
+    border-radius: 16px;
+    padding: 32px;
+}
+.h-450 {
+    height: 450px;
+}
+.top-5 {
+    top: 40% !important;
+}
+.bottom-30 {
+    bottom: 30px;
+}
+.end-30 {
+    right: 30px;
+}
+.fs-7 {
+    font-size: 14px;
+}
+.box-1 {
+    background-color: #f9fef1;
+    padding: 2rem;
+}
+.box-2 {
+    background-color: #fffcef;
+    padding: 2rem;
+}
+.box-3 {
+    background-color: #f0f6fe;
+    padding: 2rem;
+}
+.heading {
+    border-top: 1px !important;
+    border-bottom: 1px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-style: dashed !important;
+    border-color: #ddd !important;
+}
+.border-dashed {
+    border-top: 0px !important;
+    border-bottom: 1px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-style: dashed !important;
+    border-color: #ddd !important;
+}
+.card-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #131318;
+    z-index: 1;
+    opacity: 10%;
+    border-radius: 25px;
+}
+.p-32 {
+    padding: 32px !important;
+}
+.heading h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.text-grey {
+    color: #99999B;
+}
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+.padding {
+    padding: 5rem
+}
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+.progress.progress-md {
+    height: 8px
+}
+.progress {
+    margin-top: 1.5rem
+}
+.progress {
+    border-radius: 5px;
+    height: 5px
+} 
+.progressbar-text {
+    position: absolute; 
+    padding: 0px; 
+    margin: 0px; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); color: rgb(0, 0, 0); 
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.pl-2, .px-2, .circle-progress-block {
+   padding-left: 0.5rem !important;
+}
+.pr-2, .px-2, .circle-progress-block {
+   padding-right: 0.5rem !important;
+}
+.mb-3, .circle-progress-block, .my-3 {
+   margin-bottom: 1rem !important;
+}
+footer {
+    background-color: #131318;
+}
